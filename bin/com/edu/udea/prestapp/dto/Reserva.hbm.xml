@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 30, 2017 10:41:25 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.edu.udea.prestapp.dto.Reserva" table="reserva">
+        <id name="id" type="int">
+            <column name="ID" precision="11"/>
+            <generator class="assigned" />
+        </id>
+        <many-to-one class="com.edu.udea.prestapp.dto.Usuario" name="usuario" lazy="proxy" fetch="join">
+        	<column name="IDUSUARIO" not-null="true"></column>
+        </many-to-one>
+        <many-to-one class="com.edu.udea.prestapp.dto.Objeto" name="objeto" lazy="proxy" fetch="join">
+        	<column name="IDOBJETO" not-null="true"></column>
+        </many-to-one>
+        <property name="fechaReserva" type="java.util.Date">
+            <column name="FECHARESERVA" not-null="true"/>
+        </property>
+        <property name="fechaPrestamo" type="java.util.Date">
+            <column name="FECHAPRESTAMO" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

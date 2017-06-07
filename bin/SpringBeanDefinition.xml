@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
+
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver">
+		</property>
+		<property name="url" value="jdbc:mysql://localhost:3306/prestapp">
+		</property>
+		<property name="username" value="root"></property>
+		<property name="password" value="root"></property>
+	</bean>
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="mappingResources">
+			<list>
+				<value>com/edu/udea/prestapp/dto/Objeto.hbm.xml</value>
+				<value>com/edu/udea/prestapp/dto/Prestamo.hbm.xml</value>
+				<value>com/edu/udea/prestapp/dto/Usuario.hbm.xml</value>
+				<value>com/edu/udea/prestapp/dto/Sancion.hbm.xml</value>
+				<value>com/edu/udea/prestapp/dto/Reserva.hbm.xml</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop> <!--  true en desarrollo, falso en produccion -->
+				<prop key="javax.persistance.validation.mode">none</prop> <!-- validacion de la informacion -->
+			</props>
+		</property>
+	</bean>
+	<bean id="txManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	<bean id="SancionDaoImp" class="com.edu.udea.prestapp.dao.SancionDaoImp">
+		<property name="sessionFactory" ref="sessionFactory"></property> <!-- nombre de la propiedad / atributo en CiudadDaoSpring -->
+	</bean>
+	<bean id="PrestamoDaoImp" class="com.edu.udea.prestapp.dao.PrestamoDaoImp">
+		<property name="sessionFactory" ref="sessionFactory"></property> <!-- nombre de la propiedad / atributo en CiudadDaoSpring -->
+	</bean>
+	<bean id="ObjetoDaoImp" class="com.edu.udea.prestapp.dao.ObjetoDaoImp">
+		<property name="sessionFactory" ref="sessionFactory"></property> <!-- nombre de la propiedad / atributo en CiudadDaoSpring -->
+	</bean>
+	<bean id="UsuarioDaoImp" class="com.edu.udea.prestapp.dao.UsuarioDaoImp">
+		<property name="sessionFactory" ref="sessionFactory"></property> <!-- nombre de la propiedad / atributo en CiudadDaoSpring -->
+	</bean>
+	<bean id="ReservaDaoImp" class="com.edu.udea.prestapp.dao.ReservaDaoImp">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="UsuarioBL" class="com.edu.udea.prestapp.bl.UsuarioBL">
+		<property name="usuarioDaoImp" ref="UsuarioDaoImp"></property>	
+	</bean>
+	<bean id="ObjetoBL" class="com.edu.udea.prestapp.bl.ObjetoBL">
+		<property name="objetoDaoImp" ref="ObjetoDaoImp"></property>	
+	</bean>
+	<bean id="SancionBL" class="com.edu.udea.prestapp.bl.SancionBL">
+		<property name="sancionDaoImp" ref="SancionDaoImp"></property>	
+	</bean>
+	<bean id="ReservaBL" class="com.edu.udea.prestapp.bl.ReservaBL">
+		<property name="reservaDaoImp" ref="ReservaDaoImp"></property>	
+	</bean>
+	<bean id="PrestamoBL" class="com.edu.udea.prestapp.bl.PrestamoBL">
+		<property name="prestamoDaoImp" ref="PrestamoDaoImp"></property>	
+	</bean>
+	<tx:annotation-driven transaction-manager="txManager"/>
+	
+	<context:component-scan base-package="com.edu.udea.prestapp.ws"></context:component-scan>
+	
+</beans>

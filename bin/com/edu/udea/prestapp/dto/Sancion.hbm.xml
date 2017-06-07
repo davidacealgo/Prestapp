@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2017 9:34:34 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.edu.udea.prestapp.dto.Sancion" table="sancion">
+        <id name="id" type="int">
+            <column name="ID" precision="11"/>
+            <generator class="assigned" />
+        </id>
+        <many-to-one class="com.edu.udea.prestapp.dto.Usuario" name="usuario" lazy="proxy" fetch="join">
+        	<column name="IDUSUARIO" not-null="true"></column>
+        </many-to-one>
+        <property name="tipoSancion" type="java.lang.String">
+            <column name="TIPOSANCION" length="45" not-null="true"/>
+        </property>
+        <property name="inicioSancion" type="java.util.Date">
+            <column name="INICIOSANCION" not-null="true"/>
+        </property>
+        <property name="finSancion" type="java.util.Date">
+            <column name="FINSANCION" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

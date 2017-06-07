@@ -1,0 +1,1217 @@
+SpringJUnit4ClassRunner constructor called with [class com.edu.udea.prestapp.bl.UsuarioBLTest].
+Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+Retrieved @ContextConfiguration attributes [{locations=[classpath:SpringBeanDefinition.xml], inheritInitializers=true, initializers=[], inheritLocations=true, name=, value=[], classes=[], loader=interface org.springframework.test.context.ContextLoader}] for declaring class [com.edu.udea.prestapp.bl.UsuarioBLTest].
+Resolved context configuration attributes: [ContextConfigurationAttributes@34033bd0 declaringClass = 'com.edu.udea.prestapp.bl.UsuarioBLTest', classes = '{}', locations = '{classpath:SpringBeanDefinition.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Resolving ContextLoader for context configuration attributes [ContextConfigurationAttributes@34033bd0 declaringClass = 'com.edu.udea.prestapp.bl.UsuarioBLTest', classes = '{}', locations = '{classpath:SpringBeanDefinition.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Using ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@34033bd0 declaringClass = 'com.edu.udea.prestapp.bl.UsuarioBLTest', classes = '{}', locations = '{classpath:SpringBeanDefinition.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@34033bd0 declaringClass = 'com.edu.udea.prestapp.bl.UsuarioBLTest', classes = '{}', locations = '{classpath:SpringBeanDefinition.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+Processing context initializers for context configuration attributes [ContextConfigurationAttributes@34033bd0 declaringClass = 'com.edu.udea.prestapp.bl.UsuarioBLTest', classes = '{}', locations = '{classpath:SpringBeanDefinition.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+@TestExecutionListeners is not present for class [com.edu.udea.prestapp.bl.UsuarioBLTest]: using defaults.
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e67b872, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60addb54, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3f2a3a5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4cb2c100]
+Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e67b872
+Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@60addb54
+Registering TestExecutionListener: org.springframework.test.context.transaction.TransactionalTestExecutionListener@3f2a3a5
+Registering TestExecutionListener: org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4cb2c100
+Retrieved @ProfileValueSourceConfiguration [null] for test class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+beforeTestClass(): class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+prepareTestInstance(): instance [com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55]
+Performing dependency injection for test context [[DefaultTestContext@13a57a3b testClass = UsuarioBLTest, testInstance = com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [SpringBeanDefinition.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/tx/spring-tx-4.1.xsd] in classpath: org/springframework/transaction/config/spring-tx-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-4.1.xsd]
+Found XML schema [http://www.springframework.org/schema/context/spring-context-4.1.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+Resolved location pattern [classpath*:com/edu/udea/prestapp/ws/**/*.class] to resources []
+Loaded 22 bean definitions from location pattern [classpath:SpringBeanDefinition.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@396a51ab: startup date [Thu May 18 10:11:30 COT 2017]; root of context hierarchy
+Bean factory for org.springframework.context.support.GenericApplicationContext@396a51ab: org.springframework.beans.factory.support.DefaultListableBeanFactory@166fa74d: defining beans [dataSource,sessionFactory,txManager,SancionDaoImp,PrestamoDaoImp,ObjetoDaoImp,UsuarioDaoImp,ReservaDaoImp,UsuarioBL,ObjetoBL,SancionBL,ReservaBL,PrestamoBL,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+Found bean property 'exposeProxy' of type [boolean]
+Found bean property 'frozen' of type [boolean]
+Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+Found bean property 'opaque' of type [boolean]
+Found bean property 'optimize' of type [boolean]
+Found bean property 'order' of type [int]
+Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+Found bean property 'proxyTargetClass' of type [boolean]
+Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7ee955a8]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2b6faea6]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@166fa74d: defining beans [dataSource,sessionFactory,txManager,SancionDaoImp,PrestamoDaoImp,ObjetoDaoImp,UsuarioDaoImp,ReservaDaoImp,UsuarioBL,ObjetoBL,SancionBL,ReservaBL,PrestamoBL,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'connection' of type [java.sql.Connection]
+Found bean property 'connectionProperties' of type [java.util.Properties]
+Found bean property 'driverClassName' of type [java.lang.String]
+Found bean property 'logWriter' of type [java.io.PrintWriter]
+Found bean property 'loginTimeout' of type [int]
+Found bean property 'parentLogger' of type [java.util.logging.Logger]
+Found bean property 'password' of type [java.lang.String]
+Found bean property 'url' of type [java.lang.String]
+Found bean property 'username' of type [java.lang.String]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+Found bean property 'advice' of type [org.aopalliance.aop.Advice]
+Found bean property 'adviceBeanName' of type [java.lang.String]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'classFilter' of type [org.springframework.aop.ClassFilter]
+Found bean property 'order' of type [int]
+Found bean property 'perInstance' of type [boolean]
+Found bean property 'pointcut' of type [org.springframework.aop.Pointcut]
+Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+Caching PropertyDescriptors for class [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]
+Found bean property 'class' of type [java.lang.Class]
+Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'dataSource'
+Creating shared instance of singleton bean 'sessionFactory'
+Creating instance of bean 'sessionFactory'
+Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.orm.hibernate3.LocalSessionFactoryBean]
+Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.LocalSessionFactoryBean]
+Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+Found bean property 'cacheRegionFactory' of type [org.hibernate.cache.RegionFactory]
+Found bean property 'cacheableMappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'collectionCacheStrategies' of type [java.util.Properties]
+Found bean property 'configLocation' of type [org.springframework.core.io.Resource]
+Found bean property 'configLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'configuration' of type [org.hibernate.cfg.Configuration]
+Found bean property 'configurationClass' of type [java.lang.Class]
+Found bean property 'dataSource' of type [javax.sql.DataSource]
+Found bean property 'entityCacheStrategies' of type [java.util.Properties]
+Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+Found bean property 'eventListeners' of type [java.util.Map]
+Found bean property 'exposeTransactionAwareSessionFactory' of type [boolean]
+Found bean property 'filterDefinitions' of type [[Lorg.hibernate.engine.FilterDefinition;]
+Found bean property 'hibernateProperties' of type [java.util.Properties]
+Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+Found bean property 'jtaTransactionManager' of type [javax.transaction.TransactionManager]
+Found bean property 'lobHandler' of type [org.springframework.jdbc.support.lob.LobHandler]
+Found bean property 'mappingDirectoryLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingJarLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+Found bean property 'namingStrategy' of type [org.hibernate.cfg.NamingStrategy]
+Found bean property 'object' of type [org.hibernate.SessionFactory]
+Found bean property 'objectType' of type [java.lang.Class]
+Found bean property 'schemaUpdate' of type [boolean]
+Found bean property 'singleton' of type [boolean]
+Found bean property 'typeDefinitions' of type [[Lorg.springframework.orm.hibernate3.TypeDefinitionBean;]
+Found bean property 'useTransactionAwareDataSource' of type [boolean]
+Returning cached instance of singleton bean 'dataSource'
+Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+Adding type registration boolean -> org.hibernate.type.BooleanType@5c6648b0
+Adding type registration boolean -> org.hibernate.type.BooleanType@5c6648b0
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5c6648b0
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@368f2016
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@47eaca72
+Adding type registration yes_no -> org.hibernate.type.YesNoType@3270d194
+Adding type registration byte -> org.hibernate.type.ByteType@73a1e9a9
+Adding type registration byte -> org.hibernate.type.ByteType@73a1e9a9
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@73a1e9a9
+Adding type registration character -> org.hibernate.type.CharacterType@59474f18
+Adding type registration char -> org.hibernate.type.CharacterType@59474f18
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@59474f18
+Adding type registration short -> org.hibernate.type.ShortType@397fbdb
+Adding type registration short -> org.hibernate.type.ShortType@397fbdb
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@397fbdb
+Adding type registration integer -> org.hibernate.type.IntegerType@443118b0
+Adding type registration int -> org.hibernate.type.IntegerType@443118b0
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@443118b0
+Adding type registration long -> org.hibernate.type.LongType@6771beb3
+Adding type registration long -> org.hibernate.type.LongType@6771beb3
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@6771beb3
+Adding type registration float -> org.hibernate.type.FloatType@62379589
+Adding type registration float -> org.hibernate.type.FloatType@62379589
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@62379589
+Adding type registration double -> org.hibernate.type.DoubleType@7c7a06ec
+Adding type registration double -> org.hibernate.type.DoubleType@7c7a06ec
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7c7a06ec
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@22555ebf
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@22555ebf
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@54d9d12d
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@54d9d12d
+Adding type registration string -> org.hibernate.type.StringType@40a4337a
+Adding type registration java.lang.String -> org.hibernate.type.StringType@40a4337a
+Adding type registration url -> org.hibernate.type.UrlType@327514f
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@327514f
+Adding type registration date -> org.hibernate.type.DateType@6150c3ec
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@6150c3ec
+Adding type registration time -> org.hibernate.type.TimeType@10683d9d
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@10683d9d
+Adding type registration timestamp -> org.hibernate.type.TimestampType@217ed35e
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@217ed35e
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@217ed35e
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@31190526
+Adding type registration calendar -> org.hibernate.type.CalendarType@77c2494c
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@77c2494c
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@77c2494c
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3eb738bb
+Adding type registration locale -> org.hibernate.type.LocaleType@9d5509a
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@9d5509a
+Adding type registration currency -> org.hibernate.type.CurrencyType@7eac9008
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7eac9008
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@1a677343
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1a677343
+Adding type registration class -> org.hibernate.type.ClassType@7c6908d7
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7c6908d7
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@302552ec
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@302552ec
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2cd76f31
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@55fe41ea
+Adding type registration binary -> org.hibernate.type.BinaryType@24269709
+Adding type registration byte[] -> org.hibernate.type.BinaryType@24269709
+Adding type registration [B -> org.hibernate.type.BinaryType@24269709
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@752325ad
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@752325ad
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@752325ad
+Adding type registration image -> org.hibernate.type.ImageType@710f4dc7
+Adding type registration characters -> org.hibernate.type.CharArrayType@510f3d34
+Adding type registration char[] -> org.hibernate.type.CharArrayType@510f3d34
+Adding type registration [C -> org.hibernate.type.CharArrayType@510f3d34
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4c178a76
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4c178a76
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4c178a76
+Adding type registration text -> org.hibernate.type.TextType@d35dea7
+Adding type registration blob -> org.hibernate.type.BlobType@305b7c14
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@305b7c14
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@bccb269
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@7d8704ef
+Adding type registration clob -> org.hibernate.type.ClobType@385e9564
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@385e9564
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4c39bec8
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1f59a598
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@26b3fd41
+Adding type registration serializable -> org.hibernate.type.SerializableType@445b295b
+Adding type registration object -> org.hibernate.type.ObjectType@38102d01
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@38102d01
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4e3958e7
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@77f80c04
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1dac5ef
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5c90e579
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@58ea606c
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6f45df59
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@38e79ae3
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@63070bab
+Hibernate Commons Annotations 3.2.0.Final
+Hibernate 3.6.10.Final
+hibernate.properties not found
+Bytecode provider name : javassist
+using JDK 1.4 java.sql.Timestamp handling
+Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+attempting to resolve on classpath under org/hibernate/
+located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+Processing hbm.xml files
+Mapping class: com.edu.udea.prestapp.dto.Objeto -> objeto
+Mapped property: id -> ID
+Mapped property: nombre -> NOMBRE
+Mapped property: disponibilidad -> DISPONIBILIDAD
+Mapped property: reservado -> RESERVADO
+Mapped property: estado -> ESTADO
+Mapping class: com.edu.udea.prestapp.dto.Prestamo -> prestamo
+Mapped property: objeto -> OBJETO
+Mapped property: usuario -> USUARIO
+Mapped property: id -> OBJETO, USUARIO
+Mapped property: fechaPrestamo -> FECHAPRESTAMO
+Mapped property: fechaDevolucion -> FECHADEVOLUCION
+Mapped property: fechaReserva -> FECHARESERVA
+Mapping class: com.edu.udea.prestapp.dto.Usuario -> usuario
+Mapped property: id -> ID
+Mapped property: nombres -> NOMBRES
+Mapped property: apellidos -> APELLIDOS
+Mapped property: correo -> CORREO
+Mapped property: usuario -> USUARIO
+Mapped property: contrasena -> CONTRASENA
+Mapped property: tipoId -> TIPOID
+Mapped property: telefono -> TELEFONO
+Mapped property: admin -> ADMIN
+Mapping class: com.edu.udea.prestapp.dto.Sancion -> sancion
+Mapped property: id -> ID
+Mapped property: usuario -> IDUSUARIO
+Mapped property: tipoSancion -> TIPOSANCION
+Mapped property: inicioSancion -> INICIOSANCION
+Mapped property: finSancion -> FINSANCION
+Mapping class: com.edu.udea.prestapp.dto.Reserva -> reservas
+Mapped property: id -> ID
+Mapped property: usuario -> IDUSUARIO
+Mapped property: objeto -> IDOBJETO
+Mapped property: fechaReserva -> FECHARESERVA
+Mapped property: fechaPrestamo -> FECHAPRESTAMO
+Process annotated classes
+processing fk mappings (*ToOne and JoinedSubclass)
+processing extends queue
+processing extends queue
+processing collection mappings
+processing native query and ResultSetMapping mappings
+processing association property references
+processing foreign key constraints
+resolving reference to class: com.edu.udea.prestapp.dto.Objeto
+resolving reference to class: com.edu.udea.prestapp.dto.Usuario
+resolving reference to class: com.edu.udea.prestapp.dto.Usuario
+resolving reference to class: com.edu.udea.prestapp.dto.Objeto
+resolving reference to class: com.edu.udea.prestapp.dto.Usuario
+Hibernate Validator not found: ignoring
+Building new Hibernate SessionFactory
+Preparing to build session factory with filters : {}
+Processing hbm.xml files
+Process annotated classes
+processing fk mappings (*ToOne and JoinedSubclass)
+processing extends queue
+processing extends queue
+processing collection mappings
+processing native query and ResultSetMapping mappings
+processing association property references
+processing foreign key constraints
+resolving reference to class: com.edu.udea.prestapp.dto.Objeto
+resolving reference to class: com.edu.udea.prestapp.dto.Usuario
+resolving reference to class: com.edu.udea.prestapp.dto.Usuario
+resolving reference to class: com.edu.udea.prestapp.dto.Objeto
+resolving reference to class: com.edu.udea.prestapp.dto.Usuario
+Legacy Validator not present in classpath, ignoring event listener registration
+Search not present in classpath, ignoring event listener registration.
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+composite-id class does not override equals(): com.edu.udea.prestapp.dto.PrestamoID
+composite-id class does not override hashCode(): com.edu.udea.prestapp.dto.PrestamoID
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/prestapp]
+Using dialect: org.hibernate.dialect.MySQLDialect
+Database ->
+       name : MySQL
+    version : 5.7.18-0ubuntu0.16.04.1
+      major : 5
+      minor : 7
+Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+Wrap result sets: disabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Order SQL inserts for batching: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Echoing all SQL to stdout
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+Named query checking : enabled
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+building session factory
+Statistics initialized [enabled=false]}
+Adding type registration boolean -> org.hibernate.type.BooleanType@5c6648b0
+Adding type registration boolean -> org.hibernate.type.BooleanType@5c6648b0
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5c6648b0
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@368f2016
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@47eaca72
+Adding type registration yes_no -> org.hibernate.type.YesNoType@3270d194
+Adding type registration byte -> org.hibernate.type.ByteType@73a1e9a9
+Adding type registration byte -> org.hibernate.type.ByteType@73a1e9a9
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@73a1e9a9
+Adding type registration character -> org.hibernate.type.CharacterType@59474f18
+Adding type registration char -> org.hibernate.type.CharacterType@59474f18
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@59474f18
+Adding type registration short -> org.hibernate.type.ShortType@397fbdb
+Adding type registration short -> org.hibernate.type.ShortType@397fbdb
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@397fbdb
+Adding type registration integer -> org.hibernate.type.IntegerType@443118b0
+Adding type registration int -> org.hibernate.type.IntegerType@443118b0
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@443118b0
+Adding type registration long -> org.hibernate.type.LongType@6771beb3
+Adding type registration long -> org.hibernate.type.LongType@6771beb3
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@6771beb3
+Adding type registration float -> org.hibernate.type.FloatType@62379589
+Adding type registration float -> org.hibernate.type.FloatType@62379589
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@62379589
+Adding type registration double -> org.hibernate.type.DoubleType@7c7a06ec
+Adding type registration double -> org.hibernate.type.DoubleType@7c7a06ec
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7c7a06ec
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@22555ebf
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@22555ebf
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@54d9d12d
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@54d9d12d
+Adding type registration string -> org.hibernate.type.StringType@40a4337a
+Adding type registration java.lang.String -> org.hibernate.type.StringType@40a4337a
+Adding type registration url -> org.hibernate.type.UrlType@327514f
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@327514f
+Adding type registration date -> org.hibernate.type.DateType@6150c3ec
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@6150c3ec
+Adding type registration time -> org.hibernate.type.TimeType@10683d9d
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@10683d9d
+Adding type registration timestamp -> org.hibernate.type.TimestampType@217ed35e
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@217ed35e
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@217ed35e
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@31190526
+Adding type registration calendar -> org.hibernate.type.CalendarType@77c2494c
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@77c2494c
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@77c2494c
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3eb738bb
+Adding type registration locale -> org.hibernate.type.LocaleType@9d5509a
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@9d5509a
+Adding type registration currency -> org.hibernate.type.CurrencyType@7eac9008
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7eac9008
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@1a677343
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1a677343
+Adding type registration class -> org.hibernate.type.ClassType@7c6908d7
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7c6908d7
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@302552ec
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@302552ec
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2cd76f31
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@55fe41ea
+Adding type registration binary -> org.hibernate.type.BinaryType@24269709
+Adding type registration byte[] -> org.hibernate.type.BinaryType@24269709
+Adding type registration [B -> org.hibernate.type.BinaryType@24269709
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@752325ad
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@752325ad
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@752325ad
+Adding type registration image -> org.hibernate.type.ImageType@710f4dc7
+Adding type registration characters -> org.hibernate.type.CharArrayType@510f3d34
+Adding type registration char[] -> org.hibernate.type.CharArrayType@510f3d34
+Adding type registration [C -> org.hibernate.type.CharArrayType@510f3d34
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4c178a76
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4c178a76
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4c178a76
+Adding type registration text -> org.hibernate.type.TextType@d35dea7
+Adding type registration blob -> org.hibernate.type.BlobType@305b7c14
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@305b7c14
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@bccb269
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@7d8704ef
+Adding type registration clob -> org.hibernate.type.ClobType@385e9564
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@385e9564
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4c39bec8
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@1f59a598
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@26b3fd41
+Adding type registration serializable -> org.hibernate.type.SerializableType@445b295b
+Adding type registration object -> org.hibernate.type.ObjectType@38102d01
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@38102d01
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@29a5f4e7
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@79c97cb
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2d9caaeb
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@42a15bdc
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@44a59da3
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@27e47833
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@6f6745d6
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@27508c5d
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@6b0d80ed
+Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1f59a598
+Adding type registration clob -> org.hibernate.type.ClobType@1ec9bd38
+Type registration [clob] overrides previous : org.hibernate.type.ClobType@385e9564
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1ec9bd38
+Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@385e9564
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@456d6c1e
+Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@bccb269
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@452e19ca
+Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@4c39bec8
+Adding type registration blob -> org.hibernate.type.BlobType@77659b30
+Type registration [blob] overrides previous : org.hibernate.type.BlobType@305b7c14
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@77659b30
+Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@305b7c14
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@1e13529a
+Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@7d8704ef
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@6f8e8894
+Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@26b3fd41
+Session factory constructed with filter configurations : {}
+instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, java.vm.version=25.121-b13, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, javax.persistance.validation.mode=none, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sonorks/workspace/PrestappIngWeb/Prestapp, java.runtime.version=1.8.0_121-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, os.version=4.4.0-75-generic, user.home=/home/sonorks, user.timezone=America/Bogota, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/home/sonorks/workspace/PrestappIngWeb/Prestapp/bin:/home/sonorks/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/home/sonorks/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/contribs/jersey-spring-1.4.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/asm-3.1.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jackson-core-asl-1.5.5.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jackson-jaxrs-1.5.5.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jackson-mapper-asl-1.5.5.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jackson-xc-1.5.5.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jersey-client-1.4.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jersey-core-1.4.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jersey-json-1.4.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jersey-server-1.4.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jettison-1.1.jar:/home/sonorks/Downloads/jersey-archive-1.4/jersey-archive-1.4/lib/jsr311-api-1.1.1.jar:/home/sonorks/Downloads/mysql-connector-java-5.1.22-bin.jar:/home/sonorks/Desktop/gson-2.2.4.jar:/home/sonorks/Desktop/apache-log4j-1.2.17/log4j-1.2.17.jar:/home/sonorks/Desktop/LibreriasHibernate/antlr-2.7.6.jar:/home/sonorks/Desktop/LibreriasHibernate/commons-collections-3.1.jar:/home/sonorks/Desktop/LibreriasHibernate/dom4j-1.6.1.jar:/home/sonorks/Desktop/LibreriasHibernate/hibernate3.jar:/home/sonorks/Desktop/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/sonorks/Desktop/LibreriasHibernate/javassist-3.12.0.GA.jar:/home/sonorks/Desktop/LibreriasHibernate/jta-1.1.jar:/home/sonorks/Desktop/LibreriasHibernate/slf4j-api-1.6.1.jar:/home/sonorks/Desktop/LibreriasHibernate/slf4j-log4j12-1.7.2.jar:/home/sonorks/Desktop/Spring4/com.springsource.org.aopalliance-1.0.0.jar:/home/sonorks/Desktop/Spring4/commons-logging.jar:/home/sonorks/Desktop/Spring4/spring-aop-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-beans-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-context-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-core-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-expression-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-jdbc-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-orm-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-test-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-tx-4.1.6.RELEASE.jar:/home/sonorks/Desktop/Spring4/spring-web-4.1.6.RELEASE.jar:/home/sonorks/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/395/0/.cp:/home/sonorks/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/394/0/.cp, user.name=sonorks, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=/usr/lib/jvm/java-8-oracle/jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 32830 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.edu.udea.prestapp.bl.UsuarioBLTest, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_121, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.connection.provider_class=org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, sun.cpu.isalist=}
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Static SQL for entity: com.edu.udea.prestapp.dto.Prestamo
+ Version select: select OBJETO, USUARIO from prestamo where OBJETO =? and USUARIO =?
+ Snapshot select: select prestamo_.OBJETO, prestamo_.USUARIO, prestamo_.FECHAPRESTAMO as FECHAPRE3_1_, prestamo_.FECHADEVOLUCION as FECHADEV4_1_, prestamo_.FECHARESERVA as FECHARES5_1_ from prestamo prestamo_ where prestamo_.OBJETO=? and prestamo_.USUARIO=?
+ Insert 0: insert into prestamo (FECHAPRESTAMO, FECHADEVOLUCION, FECHARESERVA, OBJETO, USUARIO) values (?, ?, ?, ?, ?)
+ Update 0: update prestamo set FECHAPRESTAMO=?, FECHADEVOLUCION=?, FECHARESERVA=? where OBJETO=? and USUARIO=?
+ Delete 0: delete from prestamo where OBJETO=? and USUARIO=?
+Static SQL for entity: com.edu.udea.prestapp.dto.Reserva
+ Version select: select ID from reservas where ID =?
+ Snapshot select: select reserva_.ID, reserva_.IDUSUARIO as IDUSUARIO4_, reserva_.IDOBJETO as IDOBJETO4_, reserva_.FECHARESERVA as FECHARES4_4_, reserva_.FECHAPRESTAMO as FECHAPRE5_4_ from reservas reserva_ where reserva_.ID=?
+ Insert 0: insert into reservas (IDUSUARIO, IDOBJETO, FECHARESERVA, FECHAPRESTAMO, ID) values (?, ?, ?, ?, ?)
+ Update 0: update reservas set IDUSUARIO=?, IDOBJETO=?, FECHARESERVA=?, FECHAPRESTAMO=? where ID=?
+ Delete 0: delete from reservas where ID=?
+Static SQL for entity: com.edu.udea.prestapp.dto.Objeto
+ Version select: select ID from objeto where ID =?
+ Snapshot select: select objeto_.ID, objeto_.NOMBRE as NOMBRE0_, objeto_.DISPONIBILIDAD as DISPONIB3_0_, objeto_.RESERVADO as RESERVADO0_, objeto_.ESTADO as ESTADO0_ from objeto objeto_ where objeto_.ID=?
+ Insert 0: insert into objeto (NOMBRE, DISPONIBILIDAD, RESERVADO, ESTADO, ID) values (?, ?, ?, ?, ?)
+ Update 0: update objeto set NOMBRE=?, DISPONIBILIDAD=?, RESERVADO=?, ESTADO=? where ID=?
+ Delete 0: delete from objeto where ID=?
+Static SQL for entity: com.edu.udea.prestapp.dto.Usuario
+ Version select: select ID from usuario where ID =?
+ Snapshot select: select usuario_.ID, usuario_.NOMBRES as NOMBRES2_, usuario_.APELLIDOS as APELLIDOS2_, usuario_.CORREO as CORREO2_, usuario_.USUARIO as USUARIO2_, usuario_.CONTRASENA as CONTRASENA2_, usuario_.TIPOID as TIPOID2_, usuario_.TELEFONO as TELEFONO2_, usuario_.ADMIN as ADMIN2_ from usuario usuario_ where usuario_.ID=?
+ Insert 0: insert into usuario (NOMBRES, APELLIDOS, CORREO, USUARIO, CONTRASENA, TIPOID, TELEFONO, ADMIN, ID) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+ Update 0: update usuario set NOMBRES=?, APELLIDOS=?, CORREO=?, USUARIO=?, CONTRASENA=?, TIPOID=?, TELEFONO=?, ADMIN=? where ID=?
+ Delete 0: delete from usuario where ID=?
+Static SQL for entity: com.edu.udea.prestapp.dto.Sancion
+ Version select: select ID from sancion where ID =?
+ Snapshot select: select sancion_.ID, sancion_.IDUSUARIO as IDUSUARIO3_, sancion_.TIPOSANCION as TIPOSANC3_3_, sancion_.INICIOSANCION as INICIOSA4_3_, sancion_.FINSANCION as FINSANCION3_ from sancion sancion_ where sancion_.ID=?
+ Insert 0: insert into sancion (IDUSUARIO, TIPOSANCION, INICIOSANCION, FINSANCION, ID) values (?, ?, ?, ?, ?)
+ Update 0: update sancion set IDUSUARIO=?, TIPOSANCION=?, INICIOSANCION=?, FINSANCION=? where ID=?
+ Delete 0: delete from sancion where ID=?
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [NONE]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=?
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [READ]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=?
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [UPGRADE]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=? for update
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [UPGRADE_NOWAIT]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=? for update
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [FORCE]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=? for update
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [PESSIMISTIC_READ]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=? lock in share mode
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [PESSIMISTIC_WRITE]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=? for update
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [PESSIMISTIC_FORCE_INCREMENT]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=? for update
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [OPTIMISTIC]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=?
+Static select for entity com.edu.udea.prestapp.dto.Prestamo [OPTIMISTIC_FORCE_INCREMENT]: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=?
+Static select for action ACTION_MERGE on entity com.edu.udea.prestapp.dto.Prestamo: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=?
+Static select for action ACTION_REFRESH on entity com.edu.udea.prestapp.dto.Prestamo: select prestamo0_.OBJETO as OBJETO1_0_, prestamo0_.USUARIO as USUARIO1_0_, prestamo0_.FECHAPRESTAMO as FECHAPRE3_1_0_, prestamo0_.FECHADEVOLUCION as FECHADEV4_1_0_, prestamo0_.FECHARESERVA as FECHARES5_1_0_ from prestamo prestamo0_ where prestamo0_.OBJETO=? and prestamo0_.USUARIO=?
+Static select for entity com.edu.udea.prestapp.dto.Reserva [NONE]: select reserva0_.ID as ID4_2_, reserva0_.IDUSUARIO as IDUSUARIO4_2_, reserva0_.IDOBJETO as IDOBJETO4_2_, reserva0_.FECHARESERVA as FECHARES4_4_2_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_2_, usuario1_.ID as ID2_0_, usuario1_.NOMBRES as NOMBRES2_0_, usuario1_.APELLIDOS as APELLIDOS2_0_, usuario1_.CORREO as CORREO2_0_, usuario1_.USUARIO as USUARIO2_0_, usuario1_.CONTRASENA as CONTRASENA2_0_, usuario1_.TIPOID as TIPOID2_0_, usuario1_.TELEFONO as TELEFONO2_0_, usuario1_.ADMIN as ADMIN2_0_, objeto2_.ID as ID0_1_, objeto2_.NOMBRE as NOMBRE0_1_, objeto2_.DISPONIBILIDAD as DISPONIB3_0_1_, objeto2_.RESERVADO as RESERVADO0_1_, objeto2_.ESTADO as ESTADO0_1_ from reservas reserva0_ left outer join usuario usuario1_ on reserva0_.IDUSUARIO=usuario1_.ID left outer join objeto objeto2_ on reserva0_.IDOBJETO=objeto2_.ID where reserva0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Reserva [READ]: select reserva0_.ID as ID4_2_, reserva0_.IDUSUARIO as IDUSUARIO4_2_, reserva0_.IDOBJETO as IDOBJETO4_2_, reserva0_.FECHARESERVA as FECHARES4_4_2_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_2_, usuario1_.ID as ID2_0_, usuario1_.NOMBRES as NOMBRES2_0_, usuario1_.APELLIDOS as APELLIDOS2_0_, usuario1_.CORREO as CORREO2_0_, usuario1_.USUARIO as USUARIO2_0_, usuario1_.CONTRASENA as CONTRASENA2_0_, usuario1_.TIPOID as TIPOID2_0_, usuario1_.TELEFONO as TELEFONO2_0_, usuario1_.ADMIN as ADMIN2_0_, objeto2_.ID as ID0_1_, objeto2_.NOMBRE as NOMBRE0_1_, objeto2_.DISPONIBILIDAD as DISPONIB3_0_1_, objeto2_.RESERVADO as RESERVADO0_1_, objeto2_.ESTADO as ESTADO0_1_ from reservas reserva0_ left outer join usuario usuario1_ on reserva0_.IDUSUARIO=usuario1_.ID left outer join objeto objeto2_ on reserva0_.IDOBJETO=objeto2_.ID where reserva0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Reserva [UPGRADE]: select reserva0_.ID as ID4_0_, reserva0_.IDUSUARIO as IDUSUARIO4_0_, reserva0_.IDOBJETO as IDOBJETO4_0_, reserva0_.FECHARESERVA as FECHARES4_4_0_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_0_ from reservas reserva0_ where reserva0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Reserva [UPGRADE_NOWAIT]: select reserva0_.ID as ID4_0_, reserva0_.IDUSUARIO as IDUSUARIO4_0_, reserva0_.IDOBJETO as IDOBJETO4_0_, reserva0_.FECHARESERVA as FECHARES4_4_0_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_0_ from reservas reserva0_ where reserva0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Reserva [FORCE]: select reserva0_.ID as ID4_0_, reserva0_.IDUSUARIO as IDUSUARIO4_0_, reserva0_.IDOBJETO as IDOBJETO4_0_, reserva0_.FECHARESERVA as FECHARES4_4_0_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_0_ from reservas reserva0_ where reserva0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Reserva [PESSIMISTIC_READ]: select reserva0_.ID as ID4_0_, reserva0_.IDUSUARIO as IDUSUARIO4_0_, reserva0_.IDOBJETO as IDOBJETO4_0_, reserva0_.FECHARESERVA as FECHARES4_4_0_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_0_ from reservas reserva0_ where reserva0_.ID=? lock in share mode
+Static select for entity com.edu.udea.prestapp.dto.Reserva [PESSIMISTIC_WRITE]: select reserva0_.ID as ID4_0_, reserva0_.IDUSUARIO as IDUSUARIO4_0_, reserva0_.IDOBJETO as IDOBJETO4_0_, reserva0_.FECHARESERVA as FECHARES4_4_0_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_0_ from reservas reserva0_ where reserva0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Reserva [PESSIMISTIC_FORCE_INCREMENT]: select reserva0_.ID as ID4_0_, reserva0_.IDUSUARIO as IDUSUARIO4_0_, reserva0_.IDOBJETO as IDOBJETO4_0_, reserva0_.FECHARESERVA as FECHARES4_4_0_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_0_ from reservas reserva0_ where reserva0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Reserva [OPTIMISTIC]: select reserva0_.ID as ID4_2_, reserva0_.IDUSUARIO as IDUSUARIO4_2_, reserva0_.IDOBJETO as IDOBJETO4_2_, reserva0_.FECHARESERVA as FECHARES4_4_2_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_2_, usuario1_.ID as ID2_0_, usuario1_.NOMBRES as NOMBRES2_0_, usuario1_.APELLIDOS as APELLIDOS2_0_, usuario1_.CORREO as CORREO2_0_, usuario1_.USUARIO as USUARIO2_0_, usuario1_.CONTRASENA as CONTRASENA2_0_, usuario1_.TIPOID as TIPOID2_0_, usuario1_.TELEFONO as TELEFONO2_0_, usuario1_.ADMIN as ADMIN2_0_, objeto2_.ID as ID0_1_, objeto2_.NOMBRE as NOMBRE0_1_, objeto2_.DISPONIBILIDAD as DISPONIB3_0_1_, objeto2_.RESERVADO as RESERVADO0_1_, objeto2_.ESTADO as ESTADO0_1_ from reservas reserva0_ left outer join usuario usuario1_ on reserva0_.IDUSUARIO=usuario1_.ID left outer join objeto objeto2_ on reserva0_.IDOBJETO=objeto2_.ID where reserva0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Reserva [OPTIMISTIC_FORCE_INCREMENT]: select reserva0_.ID as ID4_2_, reserva0_.IDUSUARIO as IDUSUARIO4_2_, reserva0_.IDOBJETO as IDOBJETO4_2_, reserva0_.FECHARESERVA as FECHARES4_4_2_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_2_, usuario1_.ID as ID2_0_, usuario1_.NOMBRES as NOMBRES2_0_, usuario1_.APELLIDOS as APELLIDOS2_0_, usuario1_.CORREO as CORREO2_0_, usuario1_.USUARIO as USUARIO2_0_, usuario1_.CONTRASENA as CONTRASENA2_0_, usuario1_.TIPOID as TIPOID2_0_, usuario1_.TELEFONO as TELEFONO2_0_, usuario1_.ADMIN as ADMIN2_0_, objeto2_.ID as ID0_1_, objeto2_.NOMBRE as NOMBRE0_1_, objeto2_.DISPONIBILIDAD as DISPONIB3_0_1_, objeto2_.RESERVADO as RESERVADO0_1_, objeto2_.ESTADO as ESTADO0_1_ from reservas reserva0_ left outer join usuario usuario1_ on reserva0_.IDUSUARIO=usuario1_.ID left outer join objeto objeto2_ on reserva0_.IDOBJETO=objeto2_.ID where reserva0_.ID=?
+Static select for action ACTION_MERGE on entity com.edu.udea.prestapp.dto.Reserva: select reserva0_.ID as ID4_0_, reserva0_.IDUSUARIO as IDUSUARIO4_0_, reserva0_.IDOBJETO as IDOBJETO4_0_, reserva0_.FECHARESERVA as FECHARES4_4_0_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_0_ from reservas reserva0_ where reserva0_.ID=?
+Static select for action ACTION_REFRESH on entity com.edu.udea.prestapp.dto.Reserva: select reserva0_.ID as ID4_0_, reserva0_.IDUSUARIO as IDUSUARIO4_0_, reserva0_.IDOBJETO as IDOBJETO4_0_, reserva0_.FECHARESERVA as FECHARES4_4_0_, reserva0_.FECHAPRESTAMO as FECHAPRE5_4_0_ from reservas reserva0_ where reserva0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Objeto [NONE]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Objeto [READ]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Objeto [UPGRADE]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Objeto [UPGRADE_NOWAIT]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Objeto [FORCE]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Objeto [PESSIMISTIC_READ]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=? lock in share mode
+Static select for entity com.edu.udea.prestapp.dto.Objeto [PESSIMISTIC_WRITE]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Objeto [PESSIMISTIC_FORCE_INCREMENT]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Objeto [OPTIMISTIC]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Objeto [OPTIMISTIC_FORCE_INCREMENT]: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=?
+Static select for action ACTION_MERGE on entity com.edu.udea.prestapp.dto.Objeto: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=?
+Static select for action ACTION_REFRESH on entity com.edu.udea.prestapp.dto.Objeto: select objeto0_.ID as ID0_0_, objeto0_.NOMBRE as NOMBRE0_0_, objeto0_.DISPONIBILIDAD as DISPONIB3_0_0_, objeto0_.RESERVADO as RESERVADO0_0_, objeto0_.ESTADO as ESTADO0_0_ from objeto objeto0_ where objeto0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Usuario [NONE]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Usuario [READ]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Usuario [UPGRADE]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Usuario [UPGRADE_NOWAIT]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Usuario [FORCE]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Usuario [PESSIMISTIC_READ]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=? lock in share mode
+Static select for entity com.edu.udea.prestapp.dto.Usuario [PESSIMISTIC_WRITE]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Usuario [PESSIMISTIC_FORCE_INCREMENT]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Usuario [OPTIMISTIC]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Usuario [OPTIMISTIC_FORCE_INCREMENT]: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=?
+Static select for action ACTION_MERGE on entity com.edu.udea.prestapp.dto.Usuario: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=?
+Static select for action ACTION_REFRESH on entity com.edu.udea.prestapp.dto.Usuario: select usuario0_.ID as ID2_0_, usuario0_.NOMBRES as NOMBRES2_0_, usuario0_.APELLIDOS as APELLIDOS2_0_, usuario0_.CORREO as CORREO2_0_, usuario0_.USUARIO as USUARIO2_0_, usuario0_.CONTRASENA as CONTRASENA2_0_, usuario0_.TIPOID as TIPOID2_0_, usuario0_.TELEFONO as TELEFONO2_0_, usuario0_.ADMIN as ADMIN2_0_ from usuario usuario0_ where usuario0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Sancion [NONE]: select sancion0_.ID as ID3_1_, sancion0_.IDUSUARIO as IDUSUARIO3_1_, sancion0_.TIPOSANCION as TIPOSANC3_3_1_, sancion0_.INICIOSANCION as INICIOSA4_3_1_, sancion0_.FINSANCION as FINSANCION3_1_, usuario1_.ID as ID2_0_, usuario1_.NOMBRES as NOMBRES2_0_, usuario1_.APELLIDOS as APELLIDOS2_0_, usuario1_.CORREO as CORREO2_0_, usuario1_.USUARIO as USUARIO2_0_, usuario1_.CONTRASENA as CONTRASENA2_0_, usuario1_.TIPOID as TIPOID2_0_, usuario1_.TELEFONO as TELEFONO2_0_, usuario1_.ADMIN as ADMIN2_0_ from sancion sancion0_ left outer join usuario usuario1_ on sancion0_.IDUSUARIO=usuario1_.ID where sancion0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Sancion [READ]: select sancion0_.ID as ID3_1_, sancion0_.IDUSUARIO as IDUSUARIO3_1_, sancion0_.TIPOSANCION as TIPOSANC3_3_1_, sancion0_.INICIOSANCION as INICIOSA4_3_1_, sancion0_.FINSANCION as FINSANCION3_1_, usuario1_.ID as ID2_0_, usuario1_.NOMBRES as NOMBRES2_0_, usuario1_.APELLIDOS as APELLIDOS2_0_, usuario1_.CORREO as CORREO2_0_, usuario1_.USUARIO as USUARIO2_0_, usuario1_.CONTRASENA as CONTRASENA2_0_, usuario1_.TIPOID as TIPOID2_0_, usuario1_.TELEFONO as TELEFONO2_0_, usuario1_.ADMIN as ADMIN2_0_ from sancion sancion0_ left outer join usuario usuario1_ on sancion0_.IDUSUARIO=usuario1_.ID where sancion0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Sancion [UPGRADE]: select sancion0_.ID as ID3_0_, sancion0_.IDUSUARIO as IDUSUARIO3_0_, sancion0_.TIPOSANCION as TIPOSANC3_3_0_, sancion0_.INICIOSANCION as INICIOSA4_3_0_, sancion0_.FINSANCION as FINSANCION3_0_ from sancion sancion0_ where sancion0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Sancion [UPGRADE_NOWAIT]: select sancion0_.ID as ID3_0_, sancion0_.IDUSUARIO as IDUSUARIO3_0_, sancion0_.TIPOSANCION as TIPOSANC3_3_0_, sancion0_.INICIOSANCION as INICIOSA4_3_0_, sancion0_.FINSANCION as FINSANCION3_0_ from sancion sancion0_ where sancion0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Sancion [FORCE]: select sancion0_.ID as ID3_0_, sancion0_.IDUSUARIO as IDUSUARIO3_0_, sancion0_.TIPOSANCION as TIPOSANC3_3_0_, sancion0_.INICIOSANCION as INICIOSA4_3_0_, sancion0_.FINSANCION as FINSANCION3_0_ from sancion sancion0_ where sancion0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Sancion [PESSIMISTIC_READ]: select sancion0_.ID as ID3_0_, sancion0_.IDUSUARIO as IDUSUARIO3_0_, sancion0_.TIPOSANCION as TIPOSANC3_3_0_, sancion0_.INICIOSANCION as INICIOSA4_3_0_, sancion0_.FINSANCION as FINSANCION3_0_ from sancion sancion0_ where sancion0_.ID=? lock in share mode
+Static select for entity com.edu.udea.prestapp.dto.Sancion [PESSIMISTIC_WRITE]: select sancion0_.ID as ID3_0_, sancion0_.IDUSUARIO as IDUSUARIO3_0_, sancion0_.TIPOSANCION as TIPOSANC3_3_0_, sancion0_.INICIOSANCION as INICIOSA4_3_0_, sancion0_.FINSANCION as FINSANCION3_0_ from sancion sancion0_ where sancion0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Sancion [PESSIMISTIC_FORCE_INCREMENT]: select sancion0_.ID as ID3_0_, sancion0_.IDUSUARIO as IDUSUARIO3_0_, sancion0_.TIPOSANCION as TIPOSANC3_3_0_, sancion0_.INICIOSANCION as INICIOSA4_3_0_, sancion0_.FINSANCION as FINSANCION3_0_ from sancion sancion0_ where sancion0_.ID=? for update
+Static select for entity com.edu.udea.prestapp.dto.Sancion [OPTIMISTIC]: select sancion0_.ID as ID3_1_, sancion0_.IDUSUARIO as IDUSUARIO3_1_, sancion0_.TIPOSANCION as TIPOSANC3_3_1_, sancion0_.INICIOSANCION as INICIOSA4_3_1_, sancion0_.FINSANCION as FINSANCION3_1_, usuario1_.ID as ID2_0_, usuario1_.NOMBRES as NOMBRES2_0_, usuario1_.APELLIDOS as APELLIDOS2_0_, usuario1_.CORREO as CORREO2_0_, usuario1_.USUARIO as USUARIO2_0_, usuario1_.CONTRASENA as CONTRASENA2_0_, usuario1_.TIPOID as TIPOID2_0_, usuario1_.TELEFONO as TELEFONO2_0_, usuario1_.ADMIN as ADMIN2_0_ from sancion sancion0_ left outer join usuario usuario1_ on sancion0_.IDUSUARIO=usuario1_.ID where sancion0_.ID=?
+Static select for entity com.edu.udea.prestapp.dto.Sancion [OPTIMISTIC_FORCE_INCREMENT]: select sancion0_.ID as ID3_1_, sancion0_.IDUSUARIO as IDUSUARIO3_1_, sancion0_.TIPOSANCION as TIPOSANC3_3_1_, sancion0_.INICIOSANCION as INICIOSA4_3_1_, sancion0_.FINSANCION as FINSANCION3_1_, usuario1_.ID as ID2_0_, usuario1_.NOMBRES as NOMBRES2_0_, usuario1_.APELLIDOS as APELLIDOS2_0_, usuario1_.CORREO as CORREO2_0_, usuario1_.USUARIO as USUARIO2_0_, usuario1_.CONTRASENA as CONTRASENA2_0_, usuario1_.TIPOID as TIPOID2_0_, usuario1_.TELEFONO as TELEFONO2_0_, usuario1_.ADMIN as ADMIN2_0_ from sancion sancion0_ left outer join usuario usuario1_ on sancion0_.IDUSUARIO=usuario1_.ID where sancion0_.ID=?
+Static select for action ACTION_MERGE on entity com.edu.udea.prestapp.dto.Sancion: select sancion0_.ID as ID3_0_, sancion0_.IDUSUARIO as IDUSUARIO3_0_, sancion0_.TIPOSANCION as TIPOSANC3_3_0_, sancion0_.INICIOSANCION as INICIOSA4_3_0_, sancion0_.FINSANCION as FINSANCION3_0_ from sancion sancion0_ where sancion0_.ID=?
+Static select for action ACTION_REFRESH on entity com.edu.udea.prestapp.dto.Sancion: select sancion0_.ID as ID3_0_, sancion0_.IDUSUARIO as IDUSUARIO3_0_, sancion0_.TIPOSANCION as TIPOSANC3_3_0_, sancion0_.INICIOSANCION as INICIOSA4_3_0_, sancion0_.FINSANCION as FINSANCION3_0_ from sancion sancion0_ where sancion0_.ID=?
+initializing class SessionFactoryObjectFactory
+registered: da0c3a4f-84c8-4230-b4ed-50ea0952a01c (unnamed)
+Not binding factory to JNDI, no JNDI name configured
+instantiated session factory
+Checking 0 named HQL queries
+Checking 0 named SQL queries
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'sessionFactory'
+Creating shared instance of singleton bean 'txManager'
+Creating instance of bean 'txManager'
+Eagerly caching bean 'txManager' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.orm.hibernate3.HibernateTransactionManager]
+Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.HibernateTransactionManager]
+Found bean property 'autodetectDataSource' of type [boolean]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'dataSource' of type [javax.sql.DataSource]
+Found bean property 'defaultTimeout' of type [int]
+Found bean property 'earlyFlushBeforeCommit' of type [boolean]
+Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+Found bean property 'entityInterceptorBeanName' of type [java.lang.String]
+Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+Found bean property 'hibernateManagedSession' of type [boolean]
+Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+Found bean property 'nestedTransactionAllowed' of type [boolean]
+Found bean property 'prepareConnection' of type [boolean]
+Found bean property 'resourceFactory' of type [java.lang.Object]
+Found bean property 'rollbackOnCommitFailure' of type [boolean]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Found bean property 'transactionSynchronization' of type [int]
+Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+Found bean property 'validateExistingTransaction' of type [boolean]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'dataSource'
+Invoking afterPropertiesSet() on bean with name 'txManager'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'txManager'
+Creating shared instance of singleton bean 'SancionDaoImp'
+Creating instance of bean 'SancionDaoImp'
+Eagerly caching bean 'SancionDaoImp' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.dao.SancionDaoImp]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.dao.SancionDaoImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sanciones' of type [java.util.List]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'SancionDaoImp'
+Creating shared instance of singleton bean 'PrestamoDaoImp'
+Creating instance of bean 'PrestamoDaoImp'
+Registered injected element on class [com.edu.udea.prestapp.dao.PrestamoDaoImp]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.dao.PrestamoDaoImp.objeto
+Registered injected element on class [com.edu.udea.prestapp.dao.PrestamoDaoImp]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.dao.PrestamoDaoImp.user
+Eagerly caching bean 'PrestamoDaoImp' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.dao.PrestamoDaoImp]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.dao.PrestamoDaoImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'prestamos' of type [java.util.List]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Processing injected element of bean 'PrestamoDaoImp': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.dao.PrestamoDaoImp.objeto
+Creating shared instance of singleton bean 'ObjetoDaoImp'
+Creating instance of bean 'ObjetoDaoImp'
+Eagerly caching bean 'ObjetoDaoImp' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.dao.ObjetoDaoImp]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.dao.ObjetoDaoImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'objeto'
+Found bean property 'objetos' of type [java.util.List]
+Found bean property 'objetosDisponibles' of type [java.util.List]
+Found bean property 'objetosNoDisponibles' of type [java.util.List]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'ObjetoDaoImp'
+Autowiring by type from bean name 'PrestamoDaoImp' to bean named 'ObjetoDaoImp'
+Processing injected element of bean 'PrestamoDaoImp': AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.dao.PrestamoDaoImp.user
+Creating shared instance of singleton bean 'UsuarioDaoImp'
+Creating instance of bean 'UsuarioDaoImp'
+Eagerly caching bean 'UsuarioDaoImp' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.dao.UsuarioDaoImp]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.dao.UsuarioDaoImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Found bean property 'usuarios' of type [java.util.List]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'UsuarioDaoImp'
+Autowiring by type from bean name 'PrestamoDaoImp' to bean named 'UsuarioDaoImp'
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'PrestamoDaoImp'
+Returning cached instance of singleton bean 'ObjetoDaoImp'
+Returning cached instance of singleton bean 'UsuarioDaoImp'
+Creating shared instance of singleton bean 'ReservaDaoImp'
+Creating instance of bean 'ReservaDaoImp'
+Eagerly caching bean 'ReservaDaoImp' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.dao.ReservaDaoImp]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.dao.ReservaDaoImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'reserva'
+Found bean property 'reservas' of type [java.util.List]
+Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Finished creating instance of bean 'ReservaDaoImp'
+Creating shared instance of singleton bean 'UsuarioBL'
+Creating instance of bean 'UsuarioBL'
+Registered injected element on class [com.edu.udea.prestapp.bl.UsuarioBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.UsuarioBL.usuarioDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.UsuarioBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.UsuarioBL.reservaDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.UsuarioBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.PrestamoDaoImp com.edu.udea.prestapp.bl.UsuarioBL.prestamoDaoImp
+Eagerly caching bean 'UsuarioBL' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.bl.UsuarioBL]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.bl.UsuarioBL]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'usuarioDaoImp' of type [com.edu.udea.prestapp.dao.UsuarioDaoImp]
+Processing injected element of bean 'UsuarioBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.UsuarioBL.usuarioDaoImp
+Returning cached instance of singleton bean 'UsuarioDaoImp'
+Autowiring by type from bean name 'UsuarioBL' to bean named 'UsuarioDaoImp'
+Processing injected element of bean 'UsuarioBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.UsuarioBL.reservaDaoImp
+Returning cached instance of singleton bean 'ReservaDaoImp'
+Autowiring by type from bean name 'UsuarioBL' to bean named 'ReservaDaoImp'
+Processing injected element of bean 'UsuarioBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.PrestamoDaoImp com.edu.udea.prestapp.bl.UsuarioBL.prestamoDaoImp
+Returning cached instance of singleton bean 'PrestamoDaoImp'
+Autowiring by type from bean name 'UsuarioBL' to bean named 'PrestamoDaoImp'
+Returning cached instance of singleton bean 'UsuarioDaoImp'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Adding transactional method 'UsuarioBL.doLogin' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Creating implicit proxy for bean 'UsuarioBL' with 0 common interceptors and 1 specific interceptors
+Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.edu.udea.prestapp.bl.UsuarioBL@460ebd80]
+Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+Getting BeanInfo for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+Found bean property 'transactionAttributeSources' of type [[Lorg.springframework.transaction.interceptor.TransactionAttributeSource;]
+Found bean property 'transactionAttributes' of type [java.util.Properties]
+Found bean property 'transactionManager' of type [org.springframework.transaction.PlatformTransactionManager]
+Found bean property 'transactionManagerBeanName' of type [java.lang.String]
+Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Unable to apply any optimisations to advised method: public java.lang.String com.edu.udea.prestapp.bl.UsuarioBL.doLogin(java.lang.String,java.lang.String) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'UsuarioBL.eliminarUsuario' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.UsuarioBL.eliminarUsuario(java.lang.String,java.lang.String) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'UsuarioBL.getUsuarioDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.UsuarioBL.getUsuarioDaoImp()
+Adding transactional method 'UsuarioBL.setUsuarioDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.UsuarioBL.setUsuarioDaoImp(com.edu.udea.prestapp.dao.UsuarioDaoImp)
+Adding transactional method 'UsuarioBL.restablecerContrasena' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.UsuarioBL.restablecerContrasena(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'UsuarioBL.registrarUsuario' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.UsuarioBL.registrarUsuario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'UsuarioBL.modificarDatosDeUsuario' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.UsuarioBL.modificarDatosDeUsuario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.edu.udea.prestapp.exception.ExceptionController
+Found finalize() method - using NO_OVERRIDE
+Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+Found 'hashCode' method: public native int java.lang.Object.hashCode()
+Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+Finished creating instance of bean 'UsuarioBL'
+Creating shared instance of singleton bean 'ObjetoBL'
+Creating instance of bean 'ObjetoBL'
+Registered injected element on class [com.edu.udea.prestapp.bl.ObjetoBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.ObjetoBL.objetoDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.ObjetoBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.ObjetoBL.usuarioDaoImp
+Eagerly caching bean 'ObjetoBL' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.bl.ObjetoBL]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.bl.ObjetoBL]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'objetoDaoImp' of type [com.edu.udea.prestapp.dao.ObjetoDaoImp]
+Processing injected element of bean 'ObjetoBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.ObjetoBL.objetoDaoImp
+Returning cached instance of singleton bean 'ObjetoDaoImp'
+Autowiring by type from bean name 'ObjetoBL' to bean named 'ObjetoDaoImp'
+Processing injected element of bean 'ObjetoBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.ObjetoBL.usuarioDaoImp
+Returning cached instance of singleton bean 'UsuarioDaoImp'
+Autowiring by type from bean name 'ObjetoBL' to bean named 'UsuarioDaoImp'
+Returning cached instance of singleton bean 'ObjetoDaoImp'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Adding transactional method 'ObjetoBL.modificarDisponibilidad' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Creating implicit proxy for bean 'ObjetoBL' with 0 common interceptors and 1 specific interceptors
+Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.edu.udea.prestapp.bl.ObjetoBL@10b9db7b]
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.ObjetoBL.modificarDisponibilidad(int,int) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'ObjetoBL.eliminarObjeto' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.ObjetoBL.eliminarObjeto(java.lang.String,int) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'ObjetoBL.getObjetoDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.ObjetoBL.getObjetoDaoImp()
+Adding transactional method 'ObjetoBL.setObjetoDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.ObjetoBL.setObjetoDaoImp(com.edu.udea.prestapp.dao.ObjetoDaoImp)
+Adding transactional method 'ObjetoBL.mostrarObjetos' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public java.util.List com.edu.udea.prestapp.bl.ObjetoBL.mostrarObjetos() throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'ObjetoBL.mostrarObjetosPrestados' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public java.util.List com.edu.udea.prestapp.bl.ObjetoBL.mostrarObjetosPrestados() throws com.edu.udea.prestapp.exception.ExceptionController
+Found finalize() method - using NO_OVERRIDE
+Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+Found 'hashCode' method: public native int java.lang.Object.hashCode()
+Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+Finished creating instance of bean 'ObjetoBL'
+Creating shared instance of singleton bean 'SancionBL'
+Creating instance of bean 'SancionBL'
+Registered injected element on class [com.edu.udea.prestapp.bl.SancionBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.SancionDaoImp com.edu.udea.prestapp.bl.SancionBL.sancionDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.SancionBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.SancionBL.usuarioDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.SancionBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.SancionBL.reservaDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.SancionBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.SancionBL.objetoDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.SancionBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.PrestamoDaoImp com.edu.udea.prestapp.bl.SancionBL.prestamoDaoImp
+Eagerly caching bean 'SancionBL' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.bl.SancionBL]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.bl.SancionBL]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'sancionDaoImp' of type [com.edu.udea.prestapp.dao.SancionDaoImp]
+Processing injected element of bean 'SancionBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.SancionDaoImp com.edu.udea.prestapp.bl.SancionBL.sancionDaoImp
+Returning cached instance of singleton bean 'SancionDaoImp'
+Autowiring by type from bean name 'SancionBL' to bean named 'SancionDaoImp'
+Processing injected element of bean 'SancionBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.SancionBL.usuarioDaoImp
+Returning cached instance of singleton bean 'UsuarioDaoImp'
+Autowiring by type from bean name 'SancionBL' to bean named 'UsuarioDaoImp'
+Processing injected element of bean 'SancionBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.SancionBL.reservaDaoImp
+Returning cached instance of singleton bean 'ReservaDaoImp'
+Autowiring by type from bean name 'SancionBL' to bean named 'ReservaDaoImp'
+Processing injected element of bean 'SancionBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.SancionBL.objetoDaoImp
+Returning cached instance of singleton bean 'ObjetoDaoImp'
+Autowiring by type from bean name 'SancionBL' to bean named 'ObjetoDaoImp'
+Processing injected element of bean 'SancionBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.PrestamoDaoImp com.edu.udea.prestapp.bl.SancionBL.prestamoDaoImp
+Returning cached instance of singleton bean 'PrestamoDaoImp'
+Autowiring by type from bean name 'SancionBL' to bean named 'PrestamoDaoImp'
+Returning cached instance of singleton bean 'SancionDaoImp'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Adding transactional method 'SancionBL.eliminarSancion' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Creating implicit proxy for bean 'SancionBL' with 0 common interceptors and 1 specific interceptors
+Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.edu.udea.prestapp.bl.SancionBL@4535b6d5]
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.SancionBL.eliminarSancion(int,java.lang.String) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'SancionBL.getSancionDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public com.edu.udea.prestapp.dao.SancionDaoImp com.edu.udea.prestapp.bl.SancionBL.getSancionDaoImp()
+Adding transactional method 'SancionBL.setSancionDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.SancionBL.setSancionDaoImp(com.edu.udea.prestapp.dao.SancionDaoImp)
+Adding transactional method 'SancionBL.sancionarUsuario' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.SancionBL.sancionarUsuario(java.lang.String,java.lang.String,java.lang.String,int,int) throws com.edu.udea.prestapp.exception.ExceptionController
+Found finalize() method - using NO_OVERRIDE
+Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+Found 'hashCode' method: public native int java.lang.Object.hashCode()
+Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+Finished creating instance of bean 'SancionBL'
+Creating shared instance of singleton bean 'ReservaBL'
+Creating instance of bean 'ReservaBL'
+Registered injected element on class [com.edu.udea.prestapp.bl.ReservaBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.ReservaBL.reservaDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.ReservaBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.ReservaBL.usuarioDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.ReservaBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.ReservaBL.objetoDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.ReservaBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.SancionDaoImp com.edu.udea.prestapp.bl.ReservaBL.sancionDaoImp
+Eagerly caching bean 'ReservaBL' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.bl.ReservaBL]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.bl.ReservaBL]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'reservaDaoImp' of type [com.edu.udea.prestapp.dao.ReservaDaoImp]
+Processing injected element of bean 'ReservaBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.ReservaBL.reservaDaoImp
+Returning cached instance of singleton bean 'ReservaDaoImp'
+Autowiring by type from bean name 'ReservaBL' to bean named 'ReservaDaoImp'
+Processing injected element of bean 'ReservaBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.ReservaBL.usuarioDaoImp
+Returning cached instance of singleton bean 'UsuarioDaoImp'
+Autowiring by type from bean name 'ReservaBL' to bean named 'UsuarioDaoImp'
+Processing injected element of bean 'ReservaBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.ReservaBL.objetoDaoImp
+Returning cached instance of singleton bean 'ObjetoDaoImp'
+Autowiring by type from bean name 'ReservaBL' to bean named 'ObjetoDaoImp'
+Processing injected element of bean 'ReservaBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.SancionDaoImp com.edu.udea.prestapp.bl.ReservaBL.sancionDaoImp
+Returning cached instance of singleton bean 'SancionDaoImp'
+Autowiring by type from bean name 'ReservaBL' to bean named 'SancionDaoImp'
+Returning cached instance of singleton bean 'ReservaDaoImp'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Adding transactional method 'ReservaBL.modificarReserva' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Creating implicit proxy for bean 'ReservaBL' with 0 common interceptors and 1 specific interceptors
+Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.edu.udea.prestapp.bl.ReservaBL@28e8dde3]
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.ReservaBL.modificarReserva(int,java.lang.String,java.util.Date) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'ReservaBL.getReservaDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.ReservaBL.getReservaDaoImp()
+Adding transactional method 'ReservaBL.setReservaDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.ReservaBL.setReservaDaoImp(com.edu.udea.prestapp.dao.ReservaDaoImp)
+Adding transactional method 'ReservaBL.reservarObjeto' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.ReservaBL.reservarObjeto(java.lang.String,int,java.util.Date) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'ReservaBL.cancelarReserva' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.ReservaBL.cancelarReserva(int,java.lang.String) throws com.edu.udea.prestapp.exception.ExceptionController
+Found finalize() method - using NO_OVERRIDE
+Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+Found 'hashCode' method: public native int java.lang.Object.hashCode()
+Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+Finished creating instance of bean 'ReservaBL'
+Creating shared instance of singleton bean 'PrestamoBL'
+Creating instance of bean 'PrestamoBL'
+Registered injected element on class [com.edu.udea.prestapp.bl.PrestamoBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.PrestamoDaoImp com.edu.udea.prestapp.bl.PrestamoBL.prestamoDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.PrestamoBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.PrestamoBL.usuarioDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.PrestamoBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.PrestamoBL.objetoDaoImp
+Registered injected element on class [com.edu.udea.prestapp.bl.PrestamoBL]: AutowiredFieldElement for private com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.PrestamoBL.reservaDaoImp
+Eagerly caching bean 'PrestamoBL' to allow for resolving potential circular references
+Getting BeanInfo for class [com.edu.udea.prestapp.bl.PrestamoBL]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.bl.PrestamoBL]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'prestamoDaoImp' of type [com.edu.udea.prestapp.dao.PrestamoDaoImp]
+Processing injected element of bean 'PrestamoBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.PrestamoDaoImp com.edu.udea.prestapp.bl.PrestamoBL.prestamoDaoImp
+Returning cached instance of singleton bean 'PrestamoDaoImp'
+Autowiring by type from bean name 'PrestamoBL' to bean named 'PrestamoDaoImp'
+Processing injected element of bean 'PrestamoBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.UsuarioDaoImp com.edu.udea.prestapp.bl.PrestamoBL.usuarioDaoImp
+Returning cached instance of singleton bean 'UsuarioDaoImp'
+Autowiring by type from bean name 'PrestamoBL' to bean named 'UsuarioDaoImp'
+Processing injected element of bean 'PrestamoBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ObjetoDaoImp com.edu.udea.prestapp.bl.PrestamoBL.objetoDaoImp
+Returning cached instance of singleton bean 'ObjetoDaoImp'
+Autowiring by type from bean name 'PrestamoBL' to bean named 'ObjetoDaoImp'
+Processing injected element of bean 'PrestamoBL': AutowiredFieldElement for private com.edu.udea.prestapp.dao.ReservaDaoImp com.edu.udea.prestapp.bl.PrestamoBL.reservaDaoImp
+Returning cached instance of singleton bean 'ReservaDaoImp'
+Autowiring by type from bean name 'PrestamoBL' to bean named 'ReservaDaoImp'
+Returning cached instance of singleton bean 'PrestamoDaoImp'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Adding transactional method 'PrestamoBL.realizarPrestamo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Creating implicit proxy for bean 'PrestamoBL' with 0 common interceptors and 1 specific interceptors
+Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.edu.udea.prestapp.bl.PrestamoBL@1817f1eb]
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.PrestamoBL.realizarPrestamo(java.lang.String,int) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'PrestamoBL.realizarDevolucion' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.PrestamoBL.realizarDevolucion(java.lang.String,int,int) throws com.edu.udea.prestapp.exception.ExceptionController
+Adding transactional method 'PrestamoBL.getPrestamoDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public com.edu.udea.prestapp.dao.PrestamoDaoImp com.edu.udea.prestapp.bl.PrestamoBL.getPrestamoDaoImp()
+Adding transactional method 'PrestamoBL.setPrestamoDaoImp' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.PrestamoBL.setPrestamoDaoImp(com.edu.udea.prestapp.dao.PrestamoDaoImp)
+Found finalize() method - using NO_OVERRIDE
+Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+Found 'hashCode' method: public native int java.lang.Object.hashCode()
+Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+Finished creating instance of bean 'PrestamoBL'
+Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Returning cached instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@52066604]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Publishing event in org.springframework.context.support.GenericApplicationContext@396a51ab: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@396a51ab: startup date [Thu May 18 10:11:30 COT 2017]; root of context hierarchy]
+getProperty("spring.liveBeansView.mbeanDomain", String)
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Storing ApplicationContext in cache under key [[MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+Spring test ApplicationContext cache statistics: [ContextCache@59252cb6 size = 1, hitCount = 0, missCount = 1, parentContextCount = 0]
+Getting BeanInfo for class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Caching PropertyDescriptors for class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Found bean property 'class' of type [java.lang.Class]
+Processing injected element of bean 'com.edu.udea.prestapp.bl.UsuarioBLTest': AutowiredFieldElement for com.edu.udea.prestapp.bl.UsuarioBL com.edu.udea.prestapp.bl.UsuarioBLTest.usuario
+Returning cached instance of singleton bean 'UsuarioBL'
+Autowiring by type from bean name 'com.edu.udea.prestapp.bl.UsuarioBLTest' to bean named 'UsuarioBL'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Adding transactional method 'UsuarioBLTest.test' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Creating implicit proxy for bean 'com.edu.udea.prestapp.bl.UsuarioBLTest' with 0 common interceptors and 1 specific interceptors
+Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55]
+Unable to apply any optimisations to advised method: public void com.edu.udea.prestapp.bl.UsuarioBLTest.test()
+Found finalize() method - using NO_OVERRIDE
+Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+Found 'hashCode' method: public native int java.lang.Object.hashCode()
+Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+beforeTestMethod(): instance [com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55], method [public void com.edu.udea.prestapp.bl.UsuarioBLTest.test()]
+Adding transactional method 'UsuarioBLTest.test' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+Explicit transaction definition [PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''] found for test context [DefaultTestContext@13a57a3b testClass = UsuarioBLTest, testInstance = com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55, testMethod = test@UsuarioBLTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+Retrieved @TransactionConfiguration attributes [null] for test class [class com.edu.udea.prestapp.bl.UsuarioBLTest].
+Retrieved TransactionConfigurationAttributes [TransactionConfigurationAttributes@7103cb56 transactionManagerName = '', defaultRollback = true] for class [class com.edu.udea.prestapp.bl.UsuarioBLTest].
+Retrieved ApplicationContext from cache with key [[MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+Spring test ApplicationContext cache statistics: [ContextCache@59252cb6 size = 1, hitCount = 1, missCount = 1, parentContextCount = 0]
+Returning cached instance of singleton bean 'txManager'
+No method-level @Rollback override: using default rollback [true] for test context [DefaultTestContext@13a57a3b testClass = UsuarioBLTest, testInstance = com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55, testMethod = test@UsuarioBLTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Creating new transaction with name [com.edu.udea.prestapp.bl.UsuarioBLTest.test]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+opened session at timestamp: 14951202921
+Opened new Session [org.hibernate.impl.SessionImpl@2cc3ad05] for Hibernate transaction
+Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@2cc3ad05]
+begin
+opening JDBC connection
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/prestapp]
+current autocommit status: true
+disabling autocommit
+Exposing Hibernate transaction as JDBC transaction [com.mysql.jdbc.JDBC4Connection@56aaaecd]
+Bound value [org.springframework.jdbc.datasource.ConnectionHolder@35390ee3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@522a32b1] to thread [main]
+Bound value [org.springframework.orm.hibernate3.SessionHolder@5e01a982] for key [org.hibernate.impl.SessionFactoryImpl@52e7a6b2] to thread [main]
+Initializing transaction synchronization
+Began transaction (1) for test context [DefaultTestContext@13a57a3b testClass = UsuarioBLTest, testInstance = com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55, testMethod = test@UsuarioBLTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate3.HibernateTransactionManager@5ddea849]; rollback [true]
+Returning cached instance of singleton bean 'txManager'
+Retrieved value [org.springframework.orm.hibernate3.SessionHolder@5e01a982] for key [org.hibernate.impl.SessionFactoryImpl@52e7a6b2] bound to thread [main]
+Found thread-bound Session [org.hibernate.impl.SessionImpl@2cc3ad05] for Hibernate transaction
+Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@35390ee3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@522a32b1] bound to thread [main]
+Participating in existing transaction
+Getting transaction for [com.edu.udea.prestapp.bl.UsuarioBL.doLogin]
+Iniciando metodo logear usuario
+Retrieved value [org.springframework.orm.hibernate3.SessionHolder@5e01a982] for key [org.hibernate.impl.SessionFactoryImpl@52e7a6b2] bound to thread [main]
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+select this_.ID as ID2_0_, this_.NOMBRES as NOMBRES2_0_, this_.APELLIDOS as APELLIDOS2_0_, this_.CORREO as CORREO2_0_, this_.USUARIO as USUARIO2_0_, this_.CONTRASENA as CONTRASENA2_0_, this_.TIPOID as TIPOID2_0_, this_.TELEFONO as TELEFONO2_0_, this_.ADMIN as ADMIN2_0_ from usuario this_ where this_.USUARIO=?
+about to open ResultSet (open ResultSets: 0, globally: 0)
+result set row: 0
+result row: EntityKey[com.edu.udea.prestapp.dto.Usuario#1]
+about to close ResultSet (open ResultSets: 1, globally: 1)
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+resolving associations for [com.edu.udea.prestapp.dto.Usuario#1]
+done materializing entity [com.edu.udea.prestapp.dto.Usuario#1]
+initializing non-lazy collections
+Completing transaction for [com.edu.udea.prestapp.bl.UsuarioBL.doLogin]
+afterTestMethod(): instance [com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55], method [public void com.edu.udea.prestapp.bl.UsuarioBLTest.test()], exception [null]
+Ending transaction for test context [DefaultTestContext@13a57a3b testClass = UsuarioBLTest, testInstance = com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55, testMethod = test@UsuarioBLTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction status [org.springframework.transaction.support.DefaultTransactionStatus@3543df7d]; rollback [true]
+Triggering beforeCompletion synchronization
+Initiating transaction rollback
+Rolling back Hibernate transaction on Session [org.hibernate.impl.SessionImpl@2cc3ad05]
+rollback
+re-enabling autocommit
+rolled back JDBC Connection
+transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+Triggering afterCompletion synchronization
+Clearing transaction synchronization
+Removed value [org.springframework.orm.hibernate3.SessionHolder@5e01a982] for key [org.hibernate.impl.SessionFactoryImpl@52e7a6b2] from thread [main]
+Removed value [org.springframework.jdbc.datasource.ConnectionHolder@35390ee3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@522a32b1] from thread [main]
+Closing Hibernate Session [org.hibernate.impl.SessionImpl@2cc3ad05] after transaction
+Closing Hibernate Session
+releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+Rolled back transaction for test context [DefaultTestContext@13a57a3b testClass = UsuarioBLTest, testInstance = com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55, testMethod = test@UsuarioBLTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+After test method: context [DefaultTestContext@13a57a3b testClass = UsuarioBLTest, testInstance = com.edu.udea.prestapp.bl.UsuarioBLTest@69d9c55, testMethod = test@UsuarioBLTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class dirties context [false], class mode [null], method dirties context [false].
+afterTestClass(): class [com.edu.udea.prestapp.bl.UsuarioBLTest]
+After test class: context [DefaultTestContext@13a57a3b testClass = UsuarioBLTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7ca48474 testClass = UsuarioBLTest, locations = '{classpath:SpringBeanDefinition.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], dirtiesContext [false].
+Closing org.springframework.context.support.GenericApplicationContext@396a51ab: startup date [Thu May 18 10:11:30 COT 2017]; root of context hierarchy
+Publishing event in org.springframework.context.support.GenericApplicationContext@396a51ab: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@396a51ab: startup date [Thu May 18 10:11:30 COT 2017]; root of context hierarchy]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@166fa74d: defining beans [dataSource,sessionFactory,txManager,SancionDaoImp,PrestamoDaoImp,ObjetoDaoImp,UsuarioDaoImp,ReservaDaoImp,UsuarioBL,ObjetoBL,SancionBL,ReservaBL,PrestamoBL,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Retrieved dependent beans for bean 'UsuarioBL': [com.edu.udea.prestapp.bl.UsuarioBLTest]
+Invoking destroy() on bean with name 'sessionFactory'
+Closing Hibernate SessionFactory
+closing

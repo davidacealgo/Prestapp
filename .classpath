@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/jersey-apache-client-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/jersey-atom-abdera-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/jersey-guice-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/jersey-multipart-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/jersey-simple-server-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/jersey-spring-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/oauth-client-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/oauth-server-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/contribs/oauth-signature-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jackson-core-asl-1.5.5.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jackson-jaxrs-1.5.5.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jackson-mapper-asl-1.5.5.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jackson-xc-1.5.5.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jersey-client-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jersey-core-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jersey-json-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jersey-server-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/jersey-archive-1.4/jersey-archive-1.4/lib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/LibreriasHibernate/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/Spring4/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lis/Documentos/librerias/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
