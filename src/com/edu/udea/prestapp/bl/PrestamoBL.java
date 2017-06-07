@@ -86,10 +86,11 @@ public class PrestamoBL {
 		Prestamo prestamo = null;
 		Usuario usuario = usuarioDaoImp.getUsuario(user);
 		Date fechaDevolucion = new Date();
-		if(usuario.getAdmin() == 1) {//se verifica que sea administrador
+		if(usuario.getAdmin() == 0) {//se verifica que sea administrador
 			throw new ExceptionController("El usuario no es administrador");
 		}
 		else {
+			System.out.println("paso 2");
 			List<Prestamo> listaPrestamos = prestamoDaoImp.getPrestamos();// lista de objetos prestados
 			for ( int i = 0 ; i< listaPrestamos.size(); i++) {
 				//se verifica que sea el usuario que realizó el prestamo y sea el objeto que prestó
@@ -98,6 +99,7 @@ public class PrestamoBL {
 					prestamo = listaPrestamos.get(i);//se obtiene tal prestamo
 				}
 			}
+		System.out.println(fechaDevolucion + "            mirame la fecha");
 		prestamo.setFechaDevolucion(fechaDevolucion); //se le agrega la fecha de devolucion y se termina el prestamo
 		}
 		

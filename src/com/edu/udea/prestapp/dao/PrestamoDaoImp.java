@@ -42,8 +42,8 @@ public class PrestamoDaoImp {
 	public void realizarPrestamo(String usuario, int idObjeto, Date fechaPrestamo) throws ExceptionController{
 		Date date = new Date(2017,1,1);//Validacioin para que la fecha sea del año actual
 		System.out.println(fechaPrestamo+" "+date);
-		Date fechaDevolucion = fechaPrestamo; //Fecha limite del prestamo
-		fechaDevolucion.setTime(fechaPrestamo.getTime()+604800000);//Se le suma en milisegundos una semana
+		Date fechaDevolucion = null;/*fechaPrestamo; //Fecha limite del prestamo
+		fechaDevolucion.setTime(fechaPrestamo.getTime()+604800000);//Se le suma en milisegundos una semana*/
 		if(usuario.isEmpty() || usuario == null) {
 			throw new ExceptionController("El usuario no puede estar vacio");
 		}
@@ -55,7 +55,7 @@ public class PrestamoDaoImp {
 		if(objeto.getObjeto(idObjeto)!=null && user.getUsuario(usuario)!=null){	//se valida si la reserva existe
 			Objeto prestado = objeto.getObjeto(idObjeto); //Id del objeto
 			Usuario prestamista = user.getUsuario(usuario);//usuario del que presta el objeto
-			Date fechaPrestacion = new Date();
+			Date fechaPrestacion = null;
 			PrestamoID prest = new PrestamoID(prestado,prestamista);
 			Prestamo prestamo = new Prestamo(prest,fechaPrestamo,fechaDevolucion,fechaPrestamo);//Se crea un prestamo con los datos
 			/*Buscar si hay reservas de este objeto con el id del prestamista para la fecha de reserva*/
