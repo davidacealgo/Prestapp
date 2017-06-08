@@ -82,7 +82,6 @@ public class PrestamoBL {
 	//Metodo para realzar la devolucion de un objeto, y terminar el prestamo
 	public void realizarDevolucion(String user, int idObjeto, int idUsuario) throws ExceptionController {
 		log.info("Iniciando metodo realizar devolucion");
-		PrestamoID prestamoId = null;
 		Prestamo prestamo = null;
 		Usuario usuario = usuarioDaoImp.getUsuario(user);
 		Date fechaDevolucion = new Date();
@@ -90,7 +89,6 @@ public class PrestamoBL {
 			throw new ExceptionController("El usuario no es administrador");
 		}
 		else {
-			System.out.println("paso 2");
 			List<Prestamo> listaPrestamos = prestamoDaoImp.getPrestamos();// lista de objetos prestados
 			for ( int i = 0 ; i< listaPrestamos.size(); i++) {
 				//se verifica que sea el usuario que realizó el prestamo y sea el objeto que prestó
@@ -99,9 +97,14 @@ public class PrestamoBL {
 					prestamo = listaPrestamos.get(i);//se obtiene tal prestamo
 				}
 			}
-		System.out.println(fechaDevolucion + "            mirame la fecha");
 		prestamo.setFechaDevolucion(fechaDevolucion); //se le agrega la fecha de devolucion y se termina el prestamo
+		prestamo.getId().getObjeto().setDisponibilidad(1);
 		}
 		
+	}
+	
+	public List<Prestamo> obtenerPrestamos() throws ExceptionController{
+		List<Prestamo> listaPrestamos = prestamoDaoImp.getPrestamos();
+		return listaPrestamos;
 	}
 }

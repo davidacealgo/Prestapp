@@ -56,6 +56,7 @@ public class PrestamoDaoImp {
 			Objeto prestado = objeto.getObjeto(idObjeto); //Id del objeto
 			Usuario prestamista = user.getUsuario(usuario);//usuario del que presta el objeto
 			Date fechaPrestacion = null;
+			prestado.setDisponibilidad(0);//Se cambia el estado del objeto a prestado
 			PrestamoID prest = new PrestamoID(prestado,prestamista);
 			Prestamo prestamo = new Prestamo(prest,fechaPrestamo,fechaDevolucion,fechaPrestamo);//Se crea un prestamo con los datos
 			/*Buscar si hay reservas de este objeto con el id del prestamista para la fecha de reserva*/
@@ -63,6 +64,7 @@ public class PrestamoDaoImp {
 			try{
 				session = sessionFactory.getCurrentSession(); //para conectarse con el BEAN definido en SpringConf.xml
 				session.save(prestamo);//se guarda el prestamo
+				session.update(prestado);//se actualiza el objeto
 			}catch(HibernateException e){
 				throw new ExceptionController("Error al realizar el prestamo");
 			}finally{
